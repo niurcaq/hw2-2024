@@ -29,8 +29,8 @@ img {
     border-color: #ffffff;
     border-width: 10px;
     display: block;
-    /* need to work on centering image; margin helps a little */
-    margin: 0px 0px 0px 220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
