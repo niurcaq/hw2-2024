@@ -2,7 +2,7 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px none 20px;
 }
 
 h1 {
@@ -18,7 +18,9 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px, 0px, 0px, 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* padding: 10px, 0px, 0px, 10px; */
 }
 
 img {
@@ -42,22 +44,33 @@ div {
 
 .introduction {
     border-radius: 15px;
-    margin: 15px 0px 0px 0px;
+    margin-top: 15px;
+    /* margin: 15px 0px 0px 0px; */
     line-height: 2;
 }
 
 .red {
     background-color: #ff0000;
     text-align: right;
-    margin: 0px 0px 0px 50px;
-    border: 0px 0px 2px 5px;
+    margin-left: 50px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top: none;
+    border-right: none;
+    /* margin: 0px 0px 0px 50px; */
+    /* border: none none 2px 5px; */
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
-    margin: 0px 50px 0px 0px;
-    border: 2px 5px 0px 0px;
+    margin-right: 50px;
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-bottom: none;
+    border-left: none;
+    /* margin: 0px 50px 0px 0px; */
+    /* border: 2px 5px 0px 0px; */
 }
 
 .blue h2, .blue p {
@@ -67,16 +80,24 @@ div {
 .yellow {
     background-color: #ffff00;
     text-align: right;
-    margin: 0px 0px 0px 50px;
-    border: 0px 0px 2px 5px;
+    margin-left: 50px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top: none;
+    border-right: none;
+    /* margin: 0px 0px 0px 50px; */
+    /* border: 0px 0px 2px 5px; */
     color: #707070;
 }
 
 .green {
     background-color: #008500;
     text-align: left;
-    margin: 0px 50px 0px 0px;
-    border: 2px 5px 0px 0px;
+    margin-right: 50px;
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-left: none;
+    border-bottom: none;
 }
 
 footer {
@@ -91,5 +112,5 @@ footer {
 footer p {
     text-align: right;
     font-size: 20px;
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px none;
 }
